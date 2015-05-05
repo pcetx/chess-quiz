@@ -1,3 +1,10 @@
+@import url("questions.css");
+@import url("answer.css");
+
+body, html{
+  height: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', Georgia, Times, serif;
 }
@@ -6,9 +13,25 @@ p, div {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
+.splash {
+  top: 50%; /* IMPORTANT */
+  left: 50%; /* IMPORTANT */
+  position: absolute;
+  width: 750px;
+  height: 417px;
+  margin-top: -208.5px; /* HALF OF THE HEIGHT */
+  margin-left: -375px; /* HALF OF THE WIDTH */
+  text-align: center;
+  padding-top: 8%;
+}
+
+#board {
+  width: 100%;
+}
+
 #board-buttons {
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   overflow: auto;
 }
 
@@ -21,3 +44,31 @@ p, div {
 .highlight {
   background-color: #F3F315;
 }
+
+.analysis-right{
+  float: right !important;
+  margin-right: 40px;
+}
+
+.analysis-left {
+  float: left !important;
+  width: 45%;
+}
+
+.fa.fa-arrow-circle-right {
+  font-size: 50px !important;
+  width: 80px !important; 
+  padding: 10px;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.fa.fa-arrow-circle-right:hover {
+  opacity: 0.5;
+}
+
+input, button:focus {
+    outline:none;
+}
+

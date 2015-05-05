@@ -234,7 +234,8 @@ var cfg = {
   pieceTheme: '/chessboardjs/img/chesspieces/wikipedia/{piece}.png',
   position: 'start',
   showNotation: false,
-  onChange: onChange
+  onChange: onChange,
+  draggable:true
 };
 board = new ChessBoard('board', cfg);
 $(window).resize(board.resize);

@@ -1,0 +1,12 @@
+.transparent {
+  background-color: transparent;
+  border: none;
+}
+
+.page-header {
+  display: block;
+}
+
+.page-header.fa {
+  font-size: 40px;
+}

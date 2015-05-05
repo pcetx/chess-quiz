@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="Tue, 29 Oct 2013 23:53:06 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Chess Quiz Board</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/chessboardjs/css/chessboard-0.3.0.min.css" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="/stylesheets/gsdk.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="js/get-shit-done.js"></script>
+    <script src="js/gsdk-morphing.js"></script>
+    <script src="js/gsdk-bootstrapswitch.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/jquery.flexisel.js"></script>
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h3>Chess Quiz</h3>
+      </div>
+      <div class = "quiz-board">
+        <!-- The First Row -->
+        <div class="quiz row" id="one">
+          <button class="btn question" id="one">
+            10 Points
+          </button>
+
+          <button class="btn question" id="two">
+            10 Points
+          </button>
+
+          <button class="btn question" id="three">
+            10 Points
+          </button>
+
+           <button class="btn question" id="four">
+            10 Points
+          </button>
+
+           <button class="btn question" id="five">
+            10 Points
+          </button>
+        </div>
+        <!-- The Second Row -->
+        <div class="quiz row" id="two">
+          <button class="btn question" id="one">
+            20 Points
+          </button>
+
+          <button class="btn question" id="two">
+            20 Points
+          </button>
+
+          <button class="btn question" id="three">
+            20 Points
+          </button>
+
+           <button class="btn question" id="four">
+            20 Points
+          </button>
+
+           <button class="btn question" id="five">
+            20 Points
+          </button>        
+        </div>
+        <!-- The Third Row -->
+        <div class="quiz row" id="three">
+          <button class="btn question" id="one">
+            30 Points
+          </button>
+
+          <button class="btn question" id="two">
+            30 Points
+          </button>
+
+          <button class="btn question" id="three">
+            30 Points
+          </button>
+
+           <button class="btn question" id="four">
+            30 Points
+          </button>
+
+           <button class="btn question" id="five">
+            30 Points
+          </button>          
+        </div>
+        <!-- The 4th Row -->
+        <div class="quiz row" id="four">
+          <button class="btn question" id="one">
+            40 Points
+          </button>
+
+          <button class="btn question" id="two">
+            40 Points
+          </button>
+
+          <button class="btn question" id="three">
+            40 Points
+          </button>
+
+           <button class="btn question" id="four">
+            40 Points
+          </button>
+
+           <button class="btn question" id="five">
+            40 Points
+          </button>        
+        </div>
+        <!-- The 5th Row -->
+        <div class="quiz row" id="five">
+          <button class="btn question" id="one">
+            50 Points
+          </button>
+
+          <button class="btn question" id="two">
+            50 Points
+          </button>
+
+          <button class="btn question" id="three">
+            50 Points
+          </button>
+
+           <button class="btn question" id="four">
+            50 Points
+          </button>
+
+           <button class="btn question" id="five">
+            50 Points
+          </button>        
+        </div>
+        <!-- The 6th Row -->
+        <div class="quiz row" id="six">
+          <button class="btn question" id="one">
+            60 Points
+          </button>
+
+          <button class="btn question" id="two">
+            60 Points
+          </button>
+
+          <button class="btn question" id="three">
+            60 Points
+          </button>
+
+           <button class="btn question" id="four">
+            60 Points
+          </button>
+
+           <button class="btn question" id="five">
+            60 Points
+          </button>        
+        </div>
+        <!-- The 7th Row -->
+        <div class="quiz row" id="seven">
+          <button class="btn question" id="one">
+            70 Points
+          </button>
+
+          <button class="btn question" id="two">
+            70 Points
+          </button>
+
+          <button class="btn question" id="three">
+            70 Points
+          </button>
+
+           <button class="btn question" id="four">
+            70 Points
+          </button>
+
+           <button class="btn question" id="five">
+            70 Points
+          </button>        
+        </div>
+        <!-- The 8th Row -->
+        <div class="quiz row" id="eight">
+          <button class="btn question" id="one">
+            80 Points
+          </button>
+
+          <button class="btn question" id="two">
+            80 Points
+          </button>
+
+          <button class="btn question" id="three">
+            80 Points
+          </button>
+
+          <button class="btn question" id="four">
+            80 Points
+          </button>
+
+           <button class="btn question" id="five">
+            80 Points
+          </button>        
+        </div>
+        <!-- The 9th Row -->
+        <div class="quiz row" id="ninety">
+          <button class="btn question" id="one">
+            90 Points
+          </button>
+
+          <button class="btn question" id="two">
+            90 Points
+          </button>
+
+          <button class="btn question" id="three">
+            90 Points
+          </button>
+
+           <button class="btn question" id="four">
+            90 Points
+          </button>
+
+          <button class="btn question" id="five">
+            90 Points
+          </button>        
+        </div>
+        <!-- The 10th Row -->
+        <div class="quiz row" id="ten">
+          <button class="btn question" id="one">
+            100 points
+          </button>
+
+          <button class="btn question" id="two">
+            100 points
+          </button>
+
+          <button class="btn question" id="three">
+            100 points
+          </button>
+
+          <button class="btn question" id="four">
+            100 points
+          </button>
+
+          <button class="btn question" id="five">
+            100 points
+          </button>        
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
